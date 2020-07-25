@@ -10,7 +10,7 @@ let profile = {
             "repoURL": "https://github.com/sjakva/it202-project4",
             "liveURL": "https://sjakva.github.io/it202-project4/",
             "description": "Demo of an app that reports confirmed COVID-19 cases per country.",
-            
+            "bulletPoints": ["val1", "val2", "val3"]
         },
         {
             "name": "Canvas Scrolling Game",
