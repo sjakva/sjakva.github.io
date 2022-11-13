@@ -1,9 +1,7 @@
 import * as React from "react"
-// import my fancy third-party component
 import Button from "@material-ui/core/Button"
 import { Box, Container, List, ListItem, ListItemText, ListSubheader } from "@material-ui/core"
 
-// import React from "react"
 
 const pageStyles = {
   color: "#232129",
@@ -19,16 +17,6 @@ const headingAccentStyles = {
   color: "#663399",
 }
 
-function Home() {
-  return (
-    <div>
-      <p>This is my super awesome page made with Gatsby!</p>
-
-      {/* use my fancy third-party component */}
-      <Button variant="contained">Fancy button!</Button>
-    </div>
-  )
-}
 
 const IndexPage = () => {
   return (
@@ -64,7 +52,7 @@ const IndexPage = () => {
             </li>
           ))}
         </List>
-        {Home()}
+        <Button variant="contained">BOOP</Button>
       </Box>
     </Container>
 
