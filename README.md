@@ -1,1 +1,0 @@
-# sjakva.github.io
