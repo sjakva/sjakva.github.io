@@ -38,7 +38,9 @@ const App: React.FC = () => {
             {/* localhost:8100 redirects to home page which leads to about-me */}
             <Route path="/" exact={true}>
               {/* <Redirect to="/folder/Inbox" /> */}
-              <Redirect to="/about" />
+              <Redirect to="/page/about" />
+
+              hullo
 
             </Route>
 
