@@ -1,0 +1,12 @@
+ion-card {
+  --background: #27202b;
+  --color: #774c65;
+}
+
+ion-card-title {
+  --color: #3d635d;
+}
+
+ion-card-subtitle {
+  --color: #708884;
+}
